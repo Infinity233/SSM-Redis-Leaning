@@ -31,5 +31,4 @@
         <property name="basePackage" value="com.Infinity.dao"/>
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
-
 </beans>

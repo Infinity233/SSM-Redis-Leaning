@@ -32,10 +32,10 @@ public class ValidateController {
         return mv;
     }
 
-    @InitBinder
-    public void initBinder(DataBinder binder) {
-        binder.setValidator(new TransactionValidator());
-    }
+//    @InitBinder
+//    public void initBinder(DataBinder binder) {
+//        binder.setValidator(new TransactionValidator());
+//    }
 
     @RequestMapping("/validator")
     public ModelAndView validator(@Valid Transaction trans, Errors errors) {
