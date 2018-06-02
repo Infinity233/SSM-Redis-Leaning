@@ -8,9 +8,9 @@
 </head>
 <body>
 
-<form action="/fileupload/uploadMultipartFile.do" enctype="multipart/form-data">
-    <input type="file" name="file" value="请选择上传"/>
-    <input type="text" name="idd"/>
+<form action="/fileupload/uploadPart.do" method="post" enctype="multipart/form-data">
+    <input type="file" id="file" name="file" value="请选择上传"/>
+    <%--<input type="text" name="idd"/>--%>
     <input type="submit" value="提交"/>
 </form>
 
